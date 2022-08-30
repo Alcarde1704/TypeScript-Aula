@@ -10,7 +10,7 @@ export class NegociacaoController {
     adiciona() {
         const negociacao = this.criaNegociacao();
         this.negociacoes.adiciona(negociacao);
-        console.log(this.negociacoes.listar());
+        alert(this.negociacoes.listar());
         this.limparFormulario();
     }
     criaNegociacao() {
